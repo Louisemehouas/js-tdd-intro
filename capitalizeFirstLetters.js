@@ -1,4 +1,4 @@
-const assert = require('assert');
+
 
 function capitalizeFirst (input){
   return input.length > 0
@@ -6,16 +6,7 @@ function capitalizeFirst (input){
     : '';
 }
 
-assert.strictEqual(typeof capitalizeFirst,'function');
 
-assert.strictEqual(capitalizeFirst.length, 1);
-
-assert.strictEqual(capitalizeFirst ('a'), 'A');
-
-assert.strictEqual(capitalizeFirst (''), '');
-
-assert.strictEqual(capitalizeFirst ('hello world'), 'Hello World');
-
-assert.strictEqual(capitalizeFirst ('i am learning js'), 'I Am Learning Js'); 
+module.exports = capitalizeFirst;
 
 
