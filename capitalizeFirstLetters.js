@@ -1,4 +1,4 @@
-const assert = require ('assert`);
+const assert = require('assert');
 
 function capitalizeFirst(input) {
   return input.length > 0
@@ -10,9 +10,8 @@ assert.strictEqual(typeof capitalizeFirst,'function');
 
 assert.strictEqual(capitalizeFirst.length, 1);
 
-assert.strictEqual(capitalizeFirst('a') 'A');
+assert.strictEqual(capitalizeFirst ('a'), 'A');
 
-assert.strictequal(capitalizeFirst('') '');
+assert.strictEqual(capitalizeFirst (''), '');
 
-assert.strictEqual(capitalizeFirst('i am learning javascript') 'I Am Learning Javascript');
-
+assert.strictEqual(capitalizeFirst ('i am learning javascript'), 'I Am Learning Javascript');
