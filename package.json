@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "capitalizeFirst.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}
